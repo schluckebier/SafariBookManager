@@ -1,0 +1,49 @@
+cbaker@example.com	hello	Baker	Christopher	L	1245 Lake Austin Blvd.	78733	5125571146				
+michelle@example.com	555555	Banks	Michelle		1300 Tall Pine Lane	78261	2102678873				
+fd@aool.com	666666	Broccolo	Franco	V	62 Browning Rd	77019	8175659699				
+wendy@ggmail.com	texas	Chang	Wendy	L	202 Bellmont Hall	78713	5125943222				
+limchou@yaho.com	austin	Chou	Lim		1600 Teresa Lane	78266	2107724599				
+11111111.Dixon@aool.com	11111111	Dixon	Shan	D	234 Holston Circle	75208	2142643255				
+louann@ggmail.com	aggies	Feeley	Lou Ann	K	600 S 8th Street W	77010	8172556749				
+tfreeley@minntonka.ci.state.mn.us	raiders	Freeley	Tesa	P	4448 Fairview Ave.	77009	8173255687				
+mgar@aool.com	mustangs	Garcia	Margaret	L	594 Longview	77003	8176593544				
+chaley@thug.com	mydog	Haley	Charles	E	One Cowboy Pkwy	75261	2148475583				
+jeff@ggmail.com	jeffh	Hampton	Jeffrey	T	337 38th St.	78705	5126978613				
+wjhearniii@umch.edu	logicon	Hearn	John	B	4225 North First	75237	2148965621	7197163903436520	Master Card		
+hicks43@ggmail.com	doofus	Hicks	Anthony	J	"32 NE Garden Ln., Ste 910"	78239	2105788965	6868476042647310	VISA		
+bradsingram@mall.utexas.edu	mother	Ingram	Brad	S	6548 La Posada Ct.	78736	5124678821	3727398982004160	Discover		
+mother.Ingram@aool.com	12345	Jacobs	Todd	L	4564 Elm St.	78731	5124653365	5454973452517410	American Express		
+victoria@aool.com	nothing	Lawrence	Victoria	M	6639 Butterfly Ln.	78761	5129457399	5514364986244200	Master Card		
+lineback@flush.net	GoodFellow	Lineback	Erik	W	1300 Netherland St	78293	2102449976	7093643507872300	VISA		
+elowe@netscrape.net	Elbow	Lowe	Ernest	S	3201 Pine Drive	78279	2105344627	8775273552236330	American Express		
+luce_chuck@ggmail.com	LuceyDucey	Luce	Chuck	B	2345 Rolling Clouds	78268	2106983548	1351814661069320	Master Card		
+mackcloud@pimpdaddy.com	cloudyday	MacLeod	Jennifer	D	2504 Far West Blvd.	78731	5124748138	1355077062414870	VISA		
+liz@ggmail.com	emarkbark	Markham	Elizabeth	P	7861 Chevy Chase	78732	5124579845	1241928871243970	VISA		
+mclarence@aool.com	smartinmartin	Martin	Clarence	A	87 Alcedo St.	77045	8174955201	5310804739616290	Discover		
+smartinmartin.Martin@aool.com	grego	Martinez	Gregory	R	8295 Sunset Blvd.	77030	8178746718	7828068665061360	American Express		
+cmiller@mapster.com	chucky33	Miller	Charles	R	8962 Main St.	77031	8177458615	9758965973058220	Master Card		
+nelson.Kelly@aool.com	kn1010	Nelson	Kelly	T	2601 Red River	78703	5122926966	5420363774166000	Discover		
+jojoe@ggmail.com	984365dfiop6	Nguyen	Joe	C	1249 4th SW St.	75238	2143125897	6976560896924830	American Express		
+orielly@foxnets.com	billyboy	O'Reilly	Bill	T	8800 Gringo Drive	78260	2103450925	4578875163529160	Master Card		
+or@aool.com	radicalone	Radkovich	Anka	L	1300 Elliott Pl	75260	2142345566	7156646384501590	VISA		
+megrhodes@freezing.co.uk	gohorns	Rhodes	Megan	C	4587 Enfield Rd.	78707	5123744746	6942941089010230	Discover		
+erynrice@aool.com	iloveme	Rice	Eryn	M	3405 Rio Grande	78705	5123876657	9155495411577090	American Express		
+jorge@hootmail.com	454545	Rodriguez	Jorge		6788 Cotter Street	77057	8178904374	4269847618467190	Master Card		
+ra@aoo.com	hpoi8t244	Rogers	Allen	B	4965 Oak Hill	78732	5128752943	9906094629756390	VISA		
+o_st-jean@home.com	vb235843	Saint-Jean	Olivier	M	255 Toncray Dr.	78292	2104145678	8857413205443210	Discover		
+ss34@ggmail.com	8f45896	Saunders	Sarah	J	332 Avenue C	78705	5123497810	8040396531388550	American Express		
+willsheff@email.com	409gtio23	Sewell	William	T	2365 51st St.	78709	5124510084	5015140475671290	Master Card		
+sheff44@ggmail.com	k4589h98cx	Sheffield	Martin	J	3886 Avenue A	78705	5125479167	6962592004533190	Discover		
+johnsmith187@aool.com	n98k03k9hh	Smith	John	A	23 Hidden Forge Dr.	78280	2108321888	7177961364808080	American Express		
+dustroud@mail.com	d25k758e3	Stroud	Dustin	P	1212 Rita Rd	75221	2142346667	6668749400262880	Master Card		
+eric_stuart@aool.com	e09rf0fk0f	Stuart	Eric	D	5576 Toro Ring	78746	5128178335	1780588472896630	Discover	2981762270647820	VISA
+peterstump@hootmail.com	l0j87j33jbv	Stump	Peter	L	1300 Kellen Circle	77018	8174560903	4402795173067790	American Express	7145436218913220	American Express
+tanner@ggmail.com	iu73498dd	Tanner	Jeremy	S	4347 Almstead	77044	8174590929	1422935985121310	Master Card	4977132658283840	Master Card
+taylordjay@aool.com	y87hu9ik	Taylor	Allison	R	467 Nueces St.	78705	5124748452	2247987109036310	VISA	8602456860474510	American Express
+y87hu9ik.Taylor@aool.com	fio076jfh	Taylor	Rachel	K	345 Longview Dr.	78705	5124512631	8761707076925830	Discover	1590566912856230	VISA
+tee_frank@hootmail.com	q234k0jiee	Tee	Frank	J	5590 Lavell Dr	77004	8178765543	1680731306587540	American Express	9167268833061390	Discover
+tuck33@ggmail.com	z98ytre38	Tucker	Clent	J	312 Main St.	75315	2148471154	5832667042375460	Master Card	4465504285538790	Discover
+avelasco@yaho.com	vq34yx34670	Velasco	Allen	G	679 W. 4th	75207	2143985638	1368667972354250	VISA	3517773022040250	American Express
+westj@pioneer.net	ghr89i32k8	West	Jake	T	RR 3287	75323	2148475244	1589854795728270	Discover	7579224077662870	VISA
+louielouie@aool.com	kji0338jjg	Winthorpe	Louis	L	2500 Padre Blvd	75220	2145650098	2381534238100500	American Express	5270385324417050	Discover
+rwood@voyager.net	jz3i0q7	Wood	Reagan	B	447 Westlake Dr.	78746	5124545242	8548275652910170	Master Card	8294260418333300	Discover
