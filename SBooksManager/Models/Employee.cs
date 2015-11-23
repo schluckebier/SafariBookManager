@@ -46,7 +46,6 @@ namespace SBooksManager.Models
 
 
         public bool EmpActive {get; set;}
-        public bool Manager { get; set; }
        
 
         public virtual List<Reorder> Reorders { get; set; }

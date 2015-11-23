@@ -19,20 +19,20 @@ namespace SBooksManager.Models
 
         public DateTime PublicationDate { get; set; }
 
-        public int Rating { get; set; }
-
         public decimal Price { get; set; }
 
         public decimal PriceLastPaid { get; set; }
-
-        public bool Discontinued { get; set; }
-
-        public bool Active { get; set; }
 
         public int Inventory { get; set; }
 
         public int ReorderPoint { get; set; }
 
+        public bool Discontinued { get; set; }
+
+        public int Rating { get; set; }
+
+        public bool Active { get; set; }
+        
         public string Review { get; set; }
 
 

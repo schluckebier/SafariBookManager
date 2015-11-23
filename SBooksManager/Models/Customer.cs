@@ -15,8 +15,10 @@ namespace SBooksManager.Models
         public string CustomerEmail { get; set; }
 
         [Required]
+        [Display(Name = "First Name")]
         public string FName { get; set; }
 
+        [Display(Name = "Middle Initial")]
         public string MI { get; set; }
 
         [Required]
