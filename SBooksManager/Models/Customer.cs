@@ -35,9 +35,6 @@ namespace SBooksManager.Models
         public string StreetAddress { get; set; }
 
         [Required]
-        public string City { get; set; }
-
-        [Required]
         public string Zip { get; set; }
 
         [Required]
@@ -48,8 +45,6 @@ namespace SBooksManager.Models
         public string CreditCard2 { get; set; }
 
         public string CreditCard2Type { get; set; }
-
-        public string CardType { get; set; }
 
         public bool CustomerActive { get; set; }
 
