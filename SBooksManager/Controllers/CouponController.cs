@@ -22,7 +22,7 @@ namespace SBooksManager.Controllers
         }
 
         // GET: /Coupon/Details/5
-        public ActionResult Details(int? id)
+        public ActionResult Details(string id)
         {
             if (id == null)
             {
@@ -47,9 +47,8 @@ namespace SBooksManager.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include="CouponID,CouponType")] Coupon coupon)
+        public ActionResult Create([Bind(Include="CouponID,FreeShipIf,FreeShipAll,DiscountTotal,Discount,OrderThreshold")] Coupon coupon)
         {
-            
             if (ModelState.IsValid)
             {
                 db.Coupons.Add(coupon);
@@ -61,7 +60,7 @@ namespace SBooksManager.Controllers
         }
 
         // GET: /Coupon/Edit/5
-        public ActionResult Edit(int? id)
+        public ActionResult Edit(string id)
         {
             if (id == null)
             {
@@ -80,7 +79,7 @@ namespace SBooksManager.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include="CouponID,CouponType")] Coupon coupon)
+        public ActionResult Edit([Bind(Include="CouponID,FreeShipIf,FreeShipAll,DiscountTotal,Discount,OrderThreshold")] Coupon coupon)
         {
             if (ModelState.IsValid)
             {
@@ -92,7 +91,7 @@ namespace SBooksManager.Controllers
         }
 
         // GET: /Coupon/Delete/5
-        public ActionResult Delete(int? id)
+        public ActionResult Delete(string id)
         {
             if (id == null)
             {
@@ -109,7 +108,7 @@ namespace SBooksManager.Controllers
         // POST: /Coupon/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        public ActionResult DeleteConfirmed(string id)
         {
             Coupon coupon = db.Coupons.Find(id);
             db.Coupons.Remove(coupon);

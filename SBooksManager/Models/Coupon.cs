@@ -5,6 +5,8 @@ using System.Web;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel;
+using System.Runtime.CompilerServices;
+
 
 namespace SBooksManager.Models
 {
@@ -18,18 +20,28 @@ namespace SBooksManager.Models
         [StringLength(20, ErrorMessage = "the Coupon Code must be must be between 1 and 20 characters")]
         public string CouponID { get; set; }
 
-         public enum CouponTypes { 
-            [Description("Conditional Free Shpping")] 
-            FreeShipIf, 
-            [Description("Free Shipping Off All Orders")] 
-            FreeShipAll,
-            [Description("Apply Discount to Total")]
-            DiscountTotal }; 
-        
-        [Required]
+         
+        //public enum CouponTypes { 
+        //    [Description("Conditional Free Shpping")] 
+        //    FreeShipIf, 
+        //    [Description("Free Shipping Off All Orders")] 
+        //    FreeShipAll,
+        //    [Description("Apply Discount to Total")]
+        //    DiscountTotal };
+
+        [Display(Name ="Conditional Free Shpping")]
+        public bool FreeShipIf { get; set; } //default is false
+              
+        [Display(Name ="Free Shipping Off All Orders")]
+        public bool FreeShipAll { get; set; }
+
+        [Description("Apply Discount to Total")]
+        public bool DiscountTotal { get; set; }
+
+        //[Required]
         //if free shipping, keep discount inactive
         //if discount, activate discount
-        public CouponTypes CouponType { get; set; }
+        //public CouponTypes CouponType { get; set; }
 
         //public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         //{
@@ -44,7 +56,6 @@ namespace SBooksManager.Models
         public decimal Discount { get; set; }
 
         public decimal OrderThreshold { get; set; }
-
 
     }
 
