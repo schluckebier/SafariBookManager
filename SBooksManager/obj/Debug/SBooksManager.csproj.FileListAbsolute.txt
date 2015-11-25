@@ -190,3 +190,6 @@ C:\Users\Sofia\Documents\GitHub\SafariBooksManager\SBooksManager\bin\Microsoft.O
 C:\Users\Sofia\Documents\GitHub\SafariBooksManager\SBooksManager\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Sofia\Documents\GitHub\SafariBooksManager\SBooksManager\obj\Debug\SBooksManager.Migrations._9.resources
 C:\Users\Sofia\Documents\GitHub\SafariBooksManager\SBooksManager\obj\Debug\SBooksManager.Migrations._10.resources
+C:\Users\Sofia\Documents\GitHub\SafariBooksManager\SBooksManager\obj\Debug\SBooksManager.Migrations._11.resources
+C:\Users\Sofia\Documents\GitHub\SafariBooksManager\SBooksManager\obj\Debug\SBooksManager.Migrations._12.resources
+C:\Users\Sofia\Documents\GitHub\SafariBooksManager\SBooksManager\obj\Debug\SBooksManager.Migrations._13.resources

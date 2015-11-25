@@ -12,8 +12,8 @@ namespace SBooksManager.Models
     {
         public int ReorderID { get; set; }
 
-        public int EmployeeEmail { get; set; }
-        [ForeignKey("EmployeeEmail")]
+        public int EmployeeID { get; set; }
+        [ForeignKey("EmployeeID")]
         public virtual Employee Employee { get; set; }
 
         public int SKU { get; set; }

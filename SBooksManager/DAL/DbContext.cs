@@ -22,5 +22,7 @@ namespace SBooksManager.DAL {
         public System.Data.Entity.DbSet<SBooksManager.Models.Promotion> Promotions { get; set; }
 
         public System.Data.Entity.DbSet<SBooksManager.Models.Book> Books { get; set; }
+
+        //public System.Data.Entity.DbSet<SBooksManager.Models.Employee> Employees { get; set; }
     }
 }

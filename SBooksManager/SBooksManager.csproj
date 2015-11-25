@@ -208,6 +208,18 @@
     <Compile Include="Migrations\201511232251181_10.Designer.cs">
       <DependentUpon>201511232251181_10.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511242127288_11.cs" />
+    <Compile Include="Migrations\201511242127288_11.Designer.cs">
+      <DependentUpon>201511242127288_11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511250513083_12.cs" />
+    <Compile Include="Migrations\201511250513083_12.Designer.cs">
+      <DependentUpon>201511250513083_12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511250551001_13.cs" />
+    <Compile Include="Migrations\201511250551001_13.Designer.cs">
+      <DependentUpon>201511250551001_13.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Book.cs" />
@@ -304,6 +316,11 @@
     <Content Include="Views\Promotion\Details.cshtml" />
     <Content Include="Views\Promotion\Edit.cshtml" />
     <Content Include="Views\Promotion\Index.cshtml" />
+    <Content Include="Views\Employee\Create.cshtml" />
+    <Content Include="Views\Employee\Delete.cshtml" />
+    <Content Include="Views\Employee\Details.cshtml" />
+    <Content Include="Views\Employee\Edit.cshtml" />
+    <Content Include="Views\Employee\Index.cshtml" />
     <Content Include="Views\Coupon\Create.cshtml" />
     <Content Include="Views\Coupon\Delete.cshtml" />
     <Content Include="Views\Coupon\Details.cshtml" />
@@ -344,6 +361,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201511232251181_10.resx">
       <DependentUpon>201511232251181_10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511242127288_11.resx">
+      <DependentUpon>201511242127288_11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511250513083_12.resx">
+      <DependentUpon>201511250513083_12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511250551001_13.resx">
+      <DependentUpon>201511250551001_13.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -10,7 +10,7 @@ namespace SBooksManager.Models
     public class Employee
     {
         
-        public string EmployeeID { get; set; }
+        public int EmployeeID { get; set; }
 
         [Required]
         [EmailAddress]
@@ -46,7 +46,6 @@ namespace SBooksManager.Models
 
 
         public bool EmpActive {get; set;}
-       
 
         public virtual List<Reorder> Reorders { get; set; }
 

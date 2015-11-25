@@ -47,7 +47,7 @@ namespace SBooksManager.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include="CouponID,FreeShipIf,FreeShipAll,DiscountTotal,Discount,OrderThreshold")] Coupon coupon)
+        public ActionResult Create([Bind(Include="CouponID,FreeShipIf,OrderThreshold,FreeShipAll,DiscountTotal,Discount")] Coupon coupon)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +79,7 @@ namespace SBooksManager.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include="CouponID,FreeShipIf,FreeShipAll,DiscountTotal,Discount,OrderThreshold")] Coupon coupon)
+        public ActionResult Edit([Bind(Include="CouponID,FreeShipIf,OrderThreshold,FreeShipAll,DiscountTotal,Discount")] Coupon coupon)
         {
             if (ModelState.IsValid)
             {

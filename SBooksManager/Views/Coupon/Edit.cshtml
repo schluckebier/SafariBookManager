@@ -23,18 +23,14 @@
                 @Html.ValidationMessageFor(model => model.FreeShipIf)
             </div>
         </div>
-        <div>
-            @Html.LabelFor(m => m.OrderThreshold)
-            @if (Model.FreeShipIf == false)
-            {
-                @Html.TextBoxFor(m => m.OrderThreshold, new { disabled = "disabled" })
-                
-            }
-            else
-            {
-                @Html.TextBoxFor(m => m.OrderThreshold)
-            }
-        </div> 
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.OrderThreshold, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.OrderThreshold)
+                @Html.ValidationMessageFor(model => model.OrderThreshold)
+            </div>
+        </div>
 
         <div class="form-group">
             @Html.LabelFor(model => model.FreeShipAll, new { @class = "control-label col-md-2" })
@@ -57,14 +53,6 @@
             <div class="col-md-10">
                 @Html.EditorFor(model => model.Discount)
                 @Html.ValidationMessageFor(model => model.Discount)
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.OrderThreshold, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.OrderThreshold)
-                @Html.ValidationMessageFor(model => model.OrderThreshold)
             </div>
         </div>
 

@@ -31,12 +31,19 @@ namespace SBooksManager.Models
 
         [Display(Name ="Conditional Free Shpping")]
         public bool FreeShipIf { get; set; } //default is false
+
+        public decimal? OrderThreshold { get; set; }
+
+
               
         [Display(Name ="Free Shipping Off All Orders")]
         public bool FreeShipAll { get; set; }
 
+
         [Description("Apply Discount to Total")]
         public bool DiscountTotal { get; set; }
+
+        public decimal? Discount { get; set; }
 
         //[Required]
         //if free shipping, keep discount inactive
@@ -53,9 +60,9 @@ namespace SBooksManager.Models
         //    }
         //}
 
-        public decimal Discount { get; set; }
+        
 
-        public decimal OrderThreshold { get; set; }
+        
 
     }
 
