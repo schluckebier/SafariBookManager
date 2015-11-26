@@ -15,6 +15,7 @@ namespace SBooksManager.Models
 
         public string CustomerEmail { get; set; }
         [ForeignKey("CustomerEmail")]
+
         public virtual Customer Customer { get; set; }
 
         public int SKU { get; set; }

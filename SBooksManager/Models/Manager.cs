@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations. Schema;
 
 namespace SBooksManager.Models
 {
@@ -13,6 +14,7 @@ namespace SBooksManager.Models
         [Required]
         [EmailAddress]
         public string ManEmail { get; set; }
+       
 
         [Required]
         [Display(Name = "First Name")]

@@ -11,6 +11,7 @@ using SBooksManager.DAL;
 
 namespace SBooksManager.Controllers
 {
+    [Authorize]
     public class CouponController : Controller
     {
         private AppDbContext db = new AppDbContext();
