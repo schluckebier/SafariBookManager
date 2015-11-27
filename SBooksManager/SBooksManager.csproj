@@ -231,6 +231,14 @@
     <Compile Include="Migrations\201511260150525_14.Designer.cs">
       <DependentUpon>201511260150525_14.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511270308549_15.cs" />
+    <Compile Include="Migrations\201511270308549_15.Designer.cs">
+      <DependentUpon>201511270308549_15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511270351082_16.cs" />
+    <Compile Include="Migrations\201511270351082_16.Designer.cs">
+      <DependentUpon>201511270351082_16.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Book.cs" />
@@ -384,6 +392,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201511260150525_14.resx">
       <DependentUpon>201511260150525_14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511270308549_15.resx">
+      <DependentUpon>201511270308549_15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511270351082_16.resx">
+      <DependentUpon>201511270351082_16.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

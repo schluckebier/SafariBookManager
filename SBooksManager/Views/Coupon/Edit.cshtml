@@ -9,7 +9,7 @@
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
         <h4>Coupon</h4>
         <hr />
@@ -17,42 +17,86 @@
         @Html.HiddenFor(model => model.CouponID)
 
         <div class="form-group">
-            @Html.LabelFor(model => model.FreeShipIf, new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Active, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.FreeShipIf)
-                @Html.ValidationMessageFor(model => model.FreeShipIf)
+                @Html.EditorFor(model => model.Active)
+                @Html.ValidationMessageFor(model => model.Active)
             </div>
         </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.OrderThreshold, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.OrderThreshold)
-                @Html.ValidationMessageFor(model => model.OrderThreshold)
+        <div class="accordion" id="accordion2">
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                        Free Shipping on All Orders
+                    </a>
+                </div>
+                <div id="collapseOne" class="accordion-body collapse in">
+                    <div class="accordion-inner">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.FreeShipAll, new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.FreeShipAll)
+                                @Html.ValidationMessageFor(model => model.FreeShipAll)
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                        Collapsible Group Item #2
+                    </a>
+                </div>
+                <div id="collapseTwo" class="accordion-body collapse">
+                    <div class="accordion-inner">
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.FreeShipAll, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.FreeShipAll)
-                @Html.ValidationMessageFor(model => model.FreeShipAll)
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.FreeShipIf, new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.FreeShipIf)
+                                @Html.ValidationMessageFor(model => model.FreeShipIf)
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.OrderThreshold, new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.OrderThreshold)
+                                @Html.ValidationMessageFor(model => model.OrderThreshold)
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.DiscountTotal, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.DiscountTotal)
-                @Html.ValidationMessageFor(model => model.DiscountTotal)
-            </div>
-        </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                        Collapsible Group Item #2
+                    </a>
+                </div>
+                <div id="collapseThree" class="accordion-body collapse">
+                    <div class="accordion-inner">
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.Discount, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Discount)
-                @Html.ValidationMessageFor(model => model.Discount)
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.DiscountTotal, new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.DiscountTotal)
+                                @Html.ValidationMessageFor(model => model.DiscountTotal)
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Discount, new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Discount)
+                                @Html.ValidationMessageFor(model => model.Discount)
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -64,6 +108,6 @@
     </div>
 }
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
+                    <div>
+                        @Html.ActionLink("Back to List", "Index")
+                    </div>

@@ -194,3 +194,5 @@ C:\Users\Sofia\Documents\GitHub\SafariBooksManager\SBooksManager\obj\Debug\SBook
 C:\Users\Sofia\Documents\GitHub\SafariBooksManager\SBooksManager\obj\Debug\SBooksManager.Migrations._12.resources
 C:\Users\Sofia\Documents\GitHub\SafariBooksManager\SBooksManager\obj\Debug\SBooksManager.Migrations._13.resources
 C:\Users\Sofia\Documents\GitHub\SafariBooksManager\SBooksManager\obj\Debug\SBooksManager.Migrations._14.resources
+C:\Users\Sofia\Documents\GitHub\SafariBooksManager\SBooksManager\obj\Debug\SBooksManager.Migrations._15.resources
+C:\Users\Sofia\Documents\GitHub\SafariBooksManager\SBooksManager\obj\Debug\SBooksManager.Migrations._16.resources
