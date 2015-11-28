@@ -1,7 +1,5 @@
 namespace SBooksManager.Migrations
 {
-    using System.Collections.Generic;
-    using SBooksManager.Models;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -28,18 +26,6 @@ namespace SBooksManager.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
-
-            var customers = new List<Customer>
-            {
-                new Customer { FName="Christopher", MI = "L", StreetAddress = "1245 Lake Austin Blvd.", Zip="78733", Phone ="5125571146"  },
-                
-                
-            };
-            //customers.ForEach(s => context.Customers.AddOrUpdate(p => p.Customer, s));
-            context.SaveChanges();
-
-
         }
-
     }
 }
